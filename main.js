@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function game(playerChoice) {
         const computerChoice = getComputerChoice();
         switch (playerChoice + computerChoice) {
-            case "rockpaper":
+            case "rockscissors":
             case "paperrock":
             case "scissorspaper":
                 win(playerChoice, computerChoice);
