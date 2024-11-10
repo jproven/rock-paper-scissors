@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         playerScore++;
         playerScore_span.innerHTML = playerScore;
         computerScore_span.innerHTML = computerScore;
-        result_p.innerHTML = `${convertToWord(playerChoice)}${smallUserWord} beats ${computerChoice}${smallComputerWord}. You win!"`;
+        result_p.innerHTML = `${convertToWord(playerChoice)}${smallUserWord} beats ${computerChoice}${smallComputerWord}. You win!`;
         playerChoice_div.classList.add('golden-glow');
         setTimeout(() => playerChoice_div.classList.remove('golden-glow'), 300)
     }
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         computerScore++;
         playerScore_span.innerHTML = playerScore;
         computerScore_span.innerHTML = computerScore;
-        result_p.innerHTML = `${convertToWord(playerChoice)}${smallUserWord} loses to ${computerChoice}${smallComputerWord}. You lost..."`;
+        result_p.innerHTML = `${convertToWord(playerChoice)}${smallUserWord} loses to ${computerChoice}${smallComputerWord}. You lost...`;
         playerChoice_div.classList.add('red-glow');
         setTimeout(() => playerChoice_div.classList.remove('red-glow'), 300)
     }
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const smallUserWord = "(user)".fontsize(3).sub();
         const smallComputerWord = "(rival)".fontsize(3).sub();
         const playerChoice_div = document.getElementById(playerChoice);
-        result_p.innerHTML = `${convertToWord(playerChoice)}${smallUserWord} equals ${computerChoice}${smallComputerWord}. It's a draw."`;
+        result_p.innerHTML = `${convertToWord(playerChoice)}${smallUserWord} equals ${computerChoice}${smallComputerWord}. It's a draw.`;
         playerChoice_div.classList.add('grey-glow');
         setTimeout(() => playerChoice_div.classList.remove('grey-glow'), 300)
     }
