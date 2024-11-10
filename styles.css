@@ -1,0 +1,184 @@
+/* "Silkscreen", sans-serif; */ @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Silkscreen:wght@400;700&display=swap');
+/* "Saira Condensed", sans-serif; */ @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #ffea00;
+    padding: 25px;
+}
+
+header > h1 {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 2.875em;
+    padding: 15px 20px;
+    font-family: "Saira Condensed", sans-serif;
+    position: relative;
+}
+
+.tag {
+    background-color: #ffea00;
+    color: black;
+    font-size: 0.45em;
+    padding: 2px 10px;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+#player-tag {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-tag {
+    position: absolute;
+    top: 31px;
+    right: -30px;
+}
+
+.result {
+    font-size: 2.5em;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 30px solid white;
+    transition: all 0.2s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #ffea00;
+}
+
+.choice > img {
+    margin: 10px;
+    width: 180px; 
+    height: 180px; 
+    object-fit: cover;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 10px;
+}
+
+.golden-glow {
+    border: 30px solid #efb810;
+    box-shadow: 0 0 10px #faab01;
+}
+
+.red-glow {
+    border: 30px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow {
+    border: 30px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    header {
+        padding: 15px;
+    }
+
+    header > h1 {
+        font-size: 1.5em;
+    }
+
+    .scoreboard {
+        width: 150px;
+        font-size: 2em;
+        padding: 10px 15px;
+    }
+
+    .tag {
+        font-size: 0.4em;
+        padding: 2px 8px;
+    }
+
+    #player-tag, #computer-tag {
+        top: 20px;
+    }
+
+    .result {
+        font-size: 1em;
+    }
+
+    .choices {
+        margin: 30px 0;
+    }
+
+    .choice {
+        margin: 10px;
+        padding: 5px;
+        border: 15px solid white;
+    }
+
+    .choice > img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    #action-message {
+        font-size: 1em;
+        margin: 20px;
+    }
+
+    .golden-glow {
+        border: 15px solid #efb810;
+        box-shadow: 0 0 10px #faab01;
+    }
+    
+    .red-glow {
+        border: 15px solid #fc121b;
+        box-shadow: 0 0 10px #d01115;
+    }
+    
+    .grey-glow {
+        border: 15px solid #464647;
+        box-shadow: 0 0 10px #25292b;
+    }
+}
