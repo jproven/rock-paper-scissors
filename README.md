@@ -4,13 +4,16 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 **Features**
 
-- Dynamic Gameplay: the game allows users to select their choice (rock, paper, or scissors) and immediately displays the result of the match (win, lose, or draw).
+- Dynamic Gameplay: the game allows users to select their choice (rock, paper, or 
+  scissors) and immediately displays the result of the match (win, lose, or draw).
 
 - Scoreboard: tracks the player's and computer's scores throughout the session.
 
-- Visual Effects: winning, losing, or drawing triggers unique visual glow effects for an engaging user experience.
+- Visual Effects: winning, losing, or drawing triggers unique visual glow effects for an 
+  engaging user experience.
 
-- Responsive Design: the game layout adjusts for optimal viewing and interaction on both desktop and mobile devices.
+- Responsive Design: the game layout adjusts for optimal viewing and interaction on both 
+  desktop and mobile devices.
 
 - Accessible UI: clear labels and simple interactions ensure ease of use.
 
@@ -28,7 +31,8 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 2. Click on one of the choices: rock, paper, or scissors.
 
-3. The game will display the computer's choice, and the round result, and update the scoreboard.
+3. The game will display the computer's choice, and the round result, and update the 
+   scoreboard.
 
 4. Keep playing and see how high you can score!
 
@@ -46,41 +50,41 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 - Scoreboard: shows the current score of the user and the computer.
 
-- Choices: users can select their move by clicking on the corresponding image (rock, paper, or scissors).
+- Choices: users can select their move by clicking on the corresponding image (rock, 
+  paper, or scissors).
 
 - Results: provides feedback on the outcome of each round.
 
 **How It Works**
 
-The user clicks on a choice (rock, paper, or scissors).
+1. The user clicks on a choice (rock, paper, or scissors).
 
-The computer randomly selects a choice.
+2. The computer randomly selects a choice.
 
-The game compares the choices to determine the result:
+3. The game compares the choices to determine the result:
 
-Rock beats scissors.
+   - Rock beats scissors.
 
-Scissors beat paper.
+   - Scissors beat paper.
 
-Paper beats rock.
+   - Paper beats rock.
 
-Scores are updated, and the corresponding visual effects are displayed.
+4. Scores are updated, and the corresponding visual effects are displayed.
 
-The game continues until the user refreshes the page.
+5. The game continues until the user refreshes the page.
 
 **Responsive Design**
 
 The game is fully responsive and includes specific adjustments for devices with a screen width of 767px or less:
 
-Smaller font sizes and padding for the scoreboard.
+   - Smaller font sizes and padding for the scoreboard.
 
-Reduced dimensions for choice images.
+   - Reduced dimensions for choice images.
 
-Optimized layout for touch interaction.
-Acknowledgments
+   - Optimized layout for touch interaction.
+
+**Acknowledgments**
 
 Font styles provided by Google Fonts.
 
-Inspiration for the glow effects from various CSS tutorials.
-
-Enjoy playing Rock Paper Scissors and may the odds be ever in your favor!
+**Enjoy playing Rock Paper Scissors and may the odds be ever in your favor!**
