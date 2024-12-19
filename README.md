@@ -1,8 +1,8 @@
-**Rock Paper Scissors Game**
+# **Rock Paper Scissors Game**
 
 This project is a responsive, interactive implementation of the classic "Rock Paper Scissors" game. Users can play against a computer opponent and see the results of each round displayed in real time.
 
-**Features**
+## **Features**
 
 - Dynamic Gameplay: the game allows users to select their choice (rock, paper, or 
   scissors) and immediately displays the result of the match (win, lose, or draw).
@@ -17,7 +17,7 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 - Accessible UI: clear labels and simple interactions ensure ease of use.
 
-**Technologies Used**
+## **Technologies Used**
 
 - HTML5: provides the structure of the web page.
 
@@ -25,7 +25,7 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 - JavaScript: powers the game logic and interactivity.
 
-**How to Use**
+## **How to Use**
 
 1. Open the project in any modern web browser.
 
@@ -36,7 +36,7 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 4. Keep playing and see how high you can score!
 
-**Project Structure**
+## **Project Structure**
 
 - HTML: the game's structure is defined in *index.html*.
 
@@ -44,7 +44,7 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 - JavaScript: game logic and interactivity are implemented in *main.js*.
 
-**Visuals**
+## **Visuals**
 
 - Header: displays the title "Rock Paper Scissors".
 
@@ -55,7 +55,7 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 - Results: provides feedback on the outcome of each round.
 
-**How It Works**
+## **How It Works**
 
 1. The user clicks on a choice (rock, paper, or scissors).
 
@@ -73,7 +73,7 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 5. The game continues until the user refreshes the page.
 
-**Responsive Design**
+## **Responsive Design**
 
 The game is fully responsive and includes specific adjustments for devices with a screen width of 767px or less:
 
@@ -83,8 +83,8 @@ The game is fully responsive and includes specific adjustments for devices with 
 
    - Optimized layout for touch interaction.
 
-**Acknowledgments**
+## **Acknowledgments**
 
 Font styles provided by Google Fonts.
 
-**Enjoy playing Rock Paper Scissors and may the odds be ever in your favor!**
+### **Enjoy playing Rock Paper Scissors and may the odds be ever in your favor!**
