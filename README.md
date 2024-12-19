@@ -87,4 +87,4 @@ The game is fully responsive and includes specific adjustments for devices with 
 
 Font styles provided by Google Fonts.
 
-## **Enjoy playing Rock Paper Scissors and may the odds be ever in your favor!**
+### **Enjoy playing Rock Paper Scissors and may the odds be ever in your favor!**
