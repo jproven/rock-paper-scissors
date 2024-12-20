@@ -4,26 +4,26 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 ## **Features**
 
-- Dynamic Gameplay: the game allows users to select their choice (rock, paper, or 
+- **Dynamic Gameplay**: the game allows users to select their choice (rock, paper, or 
   scissors) and immediately displays the result of the match (win, lose, or draw).
 
-- Scoreboard: tracks the player's and computer's scores throughout the session.
+- **Scoreboard**: tracks the player's and computer's scores throughout the session.
 
-- Visual Effects: winning, losing, or drawing triggers unique visual glow effects for an 
+- **Visual Effects**: winning, losing, or drawing triggers unique visual glow effects for an 
   engaging user experience.
 
-- Responsive Design: the game layout adjusts for optimal viewing and interaction on both 
+- **Responsive Design**: the game layout adjusts for optimal viewing and interaction on both 
   desktop and mobile devices.
 
-- Accessible UI: clear labels and simple interactions ensure ease of use.
+- **Accessible UI**: clear labels and simple interactions ensure ease of use.
 
 ## **Technologies Used**
 
-- HTML5: provides the structure of the web page.
+- **HTML5**: provides the structure of the web page.
 
-- CSS3: enhances the aesthetics with custom fonts, animations, and a responsive design.
+- **CSS3**: enhances the aesthetics with custom fonts, animations, and a responsive design.
 
-- JavaScript: powers the game logic and interactivity.
+- **JavaScript**: powers the game logic and interactivity.
 
 ## **How to Use**
 
@@ -38,22 +38,22 @@ This project is a responsive, interactive implementation of the classic "Rock Pa
 
 ## **Project Structure**
 
-- HTML: the game's structure is defined in *index.html*.
+- **HTML**: the game's structure is defined in *index.html*.
 
-- CSS: styling and responsiveness are handled in *styles.css*.
+- **CSS**: styling and responsiveness are handled in *styles.css*.
 
-- JavaScript: game logic and interactivity are implemented in *main.js*.
+- **JavaScript**: game logic and interactivity are implemented in *main.js*.
 
 ## **Visuals**
 
-- Header: displays the title "Rock Paper Scissors".
+- **Header**: displays the title "Rock Paper Scissors".
 
-- Scoreboard: shows the current score of the user and the computer.
+- **Scoreboard**: shows the current score of the user and the computer.
 
-- Choices: users can select their move by clicking on the corresponding image (rock, 
+- **Choices**: users can select their move by clicking on the corresponding image (rock, 
   paper, or scissors).
 
-- Results: provides feedback on the outcome of each round.
+- **Results**: provides feedback on the outcome of each round.
 
 ## **How It Works**
 
@@ -85,6 +85,6 @@ The game is fully responsive and includes specific adjustments for devices with 
 
 ## **Acknowledgments**
 
-Font styles provided by Google Fonts.
+Font styles are provided by Google Fonts.
 
 ### **Enjoy playing Rock Paper Scissors and may the odds be ever in your favor!**
